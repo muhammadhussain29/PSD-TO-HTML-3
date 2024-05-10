@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+/* Colors */
+:root{
+    --brown : rgb(70, 0, 0);
+}
+
+/* General CSS */
+.hero-txt{
+    color: var(--brown);
+    font-size: 1.3rem;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    border: 2px dashed var(--brown);
+    align-self: self-start;
+    padding: 3px 8px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+.hero-heading{
+    color: var(--brown);
+    font-size: 7rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+
+}
+.hero-sub-heading{
+    color: var(--brown);
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    margin: 0;
+    
+}
+.txt-1{
+    color: var(--brown);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+/* Main CSS */
+#hero-section{
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-section nav .logo{
+    height: 60px;
+}
+#hero-section nav .logo-name{
+    color: var(--brown);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+#hero-section nav i{
+    color: var(--brown);
+    font-size: 1.2rem;
+    margin: 0px 4px;
+}
+#hero-section nav a{
+    color: var(--brown);
+    font-size: 1.1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+
+}
+#hero-section .hero-image{
+    height: 450px;
+}
