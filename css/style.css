@@ -250,7 +250,7 @@
     width: 350px;
 }
 
-#footer{
+#footer {
     background-image: url(../img/double-cheeseburger.jpg);
     background-repeat: none;
     background-size: cover;
@@ -264,27 +264,32 @@
     background-blend-mode: overlay;
 }
 
-#footer .logo img{
+#footer .logo img {
     height: 60px;
     margin-right: 10px;
 }
 
-#footer .heading-1{
+#footer .heading-1 {
     color: white;
 }
-#footer .txt-1{
+
+#footer .txt-1 {
     color: white;
 }
-#footer .txt-2{
+
+#footer .txt-2 {
     color: white;
 }
-#footer .address{
+
+#footer .address {
     padding-left: 100px;
 }
-#footer .address .txt-1{
+
+#footer .address .txt-1 {
     font-size: 1.2rem;
 }
-#footer .address i{
+
+#footer .address i {
     font-size: 1.5rem;
     margin-bottom: 10px;
     width: 30px;
@@ -292,7 +297,8 @@
     text-align: center;
     margin-right: 40px;
 }
-#footer .social-icons i{
+
+#footer .social-icons i {
     font-size: 1.1rem;
     padding: 6px;
     border-radius: 50%;
