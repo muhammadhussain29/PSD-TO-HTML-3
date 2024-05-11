@@ -3,6 +3,7 @@
 /* Colors */
 :root{
     --brown : rgb(70, 0, 0);
+    --yellow:  rgb(254,193,60);
 }
 
 /* General CSS */
@@ -20,7 +21,6 @@
 .hero-heading{
     color: var(--brown);
     font-size: 7rem;
-    font-weight: bolder;
     text-transform: uppercase;
     font-family: "Roboto Slab", serif;
     font-weight: 900;
@@ -31,16 +31,34 @@
 .hero-sub-heading{
     color: var(--brown);
     font-size: 4.5rem;
-    font-weight: bolder;
     text-transform: uppercase;
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     margin: 0;
     
 }
+.heading-1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    color: var(--brown);
+    font-weight: 900;
+}
+.heading-2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
 .txt-1{
     color: var(--brown);
+    font-size: 1.2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+}
+.txt-2{
+    color: var(--brown);
     font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: capitalize;
 }
 
@@ -77,4 +95,49 @@
 }
 #hero-section .hero-image{
     height: 450px;
+    filter: drop-shadow(0px 0px 40px white);
+}
+#hero-section .shadow::before{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 15%;
+    width: 80%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+#discover .bg{
+    background-color: rgb(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;   
+}
+#discover .txt-1,
+#discover .heading-2{
+    color: white;
+    margin: 0;
+
+}
+#discover .bg-1{
+    background-image: url(../img/images\ \(1\).jfif);
+}
+#discover .bg-2{
+    background-image: url(../img/images\ \(2\).jfif);
+}
+#discover .bg-3{
+    background-image: url(../img/images\ \(3\).jfif);
+}
+
+#burgers .box{
+    display: inline;
+    padding: 5px 10px;
+    background-color: var(--yellow);
+    font-weight: 600;
+}
+#burgers .heading-1{
+    margin: 15px 0px;
 }
