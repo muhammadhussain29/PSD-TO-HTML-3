@@ -111,14 +111,14 @@
 }
 
 #hero-section .hero-image {
-    height: 550px;
+    height: 500px;
     filter: drop-shadow(0px 0px 40px white);
 }
 
 #hero-section .shadow::before {
     content: '';
     position: absolute;
-    bottom: 65px;
+    bottom: 150px;
     left: 8%;
     width: 80%;
     height: 30px;
@@ -126,6 +126,34 @@
     border-radius: 50%;
     filter: blur(10px);
 }
+#hero-section .price-tag{
+    /* height: 50px;
+    width: 50px; */
+    position: relative;
+    top: -150px;
+    background-color: var(--red);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+#hero-section .price-tag div{
+    border: 3px dashed white;
+    border-radius: 50%;
+    /* border-spacing: 1px; */
+    /* border */
+    padding: 15px;
+}
+#hero-section .price-tag .heading-2{
+    color: white;
+    letter-spacing: 0px;
+}
+#hero-section .price-tag .txt-1{
+    color: white;
+    /* line-height: 1; */
+    text-align: center;
+    letter-spacing: 4px;
+}
+
 
 #discover .bg {
     background-color: rgb(0, 0, 0, 0.4);
