@@ -78,18 +78,19 @@
 /* Main CSS */
 #hero-section {
     height: 100vh;
-    background-image: url(../img/background.jpg);
+    background-image: url(../images/background.webp);
     background-position: center;
     background-size: cover;
 }
 
 #hero-section nav .logo {
-    height: 60px;
+    width: 80px;
+    margin-right: 10px;
 }
 
 #hero-section nav .logo-name {
     color: var(--brown);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
@@ -110,15 +111,15 @@
 }
 
 #hero-section .hero-image {
-    height: 450px;
+    height: 550px;
     filter: drop-shadow(0px 0px 40px white);
 }
 
 #hero-section .shadow::before {
     content: '';
     position: absolute;
-    bottom: -50px;
-    left: 15%;
+    bottom: 65px;
+    left: 8%;
     width: 80%;
     height: 30px;
     background: rgba(0, 0, 0, 0.5);
@@ -143,15 +144,15 @@
 }
 
 #discover .bg-1 {
-    background-image: url(../img/images\ \(1\).jfif);
+    background-image: url(../images/bg-1.webp);
 }
 
 #discover .bg-2 {
-    background-image: url(../img/images\ \(2\).jfif);
+    background-image: url(../images/bg-2.webp);
 }
 
 #discover .bg-3 {
-    background-image: url(../img/images\ \(3\).jfif);
+    background-image: url(../images/bg-3.webp);
 }
 
 #burgers .box {
@@ -197,7 +198,7 @@
 }
 
 #upcoming .bg-img {
-    background-image: url(../img/images\ \(3\).jfif);
+    background-image: url(../images/bg-4.webp);
     background-repeat: none;
     background-size: cover;
     background-position: center;
@@ -243,15 +244,17 @@
 #reservation .bg-1 {
     transform: translate(-280px, -150px);
     width: 300px;
+    filter: drop-shadow(2px 2px 20px grey);
 }
 
 #reservation .bg-2 {
     transform: translate(200px, 100px);
     width: 350px;
+    filter: drop-shadow(2px 2px 8px grey);
 }
 
 #footer {
-    background-image: url(../img/double-cheeseburger.jpg);
+    background-image: url(../images/bg-5.webp);
     background-repeat: none;
     background-size: cover;
     background-position: center;
